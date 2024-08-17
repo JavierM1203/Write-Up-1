@@ -14,7 +14,7 @@ Hacemos clic en __Next__ hasta finalizar con la instalación.
 
 ![Image3](images/image3.png)
 
-Luego de instalar Virtual Box, vamos a la página de máquinas virtuales de [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) y descargamos el archivo .iso que nos permitirá crear la máquina virtual en Virtual Box.
+Luego de instalar Virtual Box, vamos a la página de imágenes de [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) y descargamos el archivo .iso que nos permitirá crear la máquina virtual en Virtual Box.
 
 ![Image4](images/image4.png)
 
@@ -22,6 +22,10 @@ Luego, en Virtual Box hacemos clic en __Nueva__ para crear la máquina virtual. 
 
 ![Image5](images/image5.png)
 ![Image6](images/image6.png)
+
+Asignamos los recursos que necesitemos hasta finalizar con la creación.
+
+![Image7](images/image7.png)
 
 ## 2. Instalación (si es necesario) de un proxy de interceptación (ZAP3 o BURP4)
 ## 3. Instalación de Docker en la máquina virtual de Kali5 Linux
