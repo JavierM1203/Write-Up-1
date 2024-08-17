@@ -14,16 +14,13 @@ Hacemos clic en __Next__ hasta finalizar con la instalación.
 
 ![Image3](images/image3.png)
 
-Luego de instalar Virtual Box, vamos a la página de máquinas virtuales de [Kali Linux](https://www.kali.org/get-kali/#kali-virtual-machines) y descargamos la imágen para crear la máquina virtual en Virtual Box.
+Luego de instalar Virtual Box, vamos a la página de máquinas virtuales de [Kali Linux](https://www.kali.org/get-kali/#kali-installer-images) y descargamos el archivo .iso que nos permitirá crear la máquina virtual en Virtual Box.
 
 ![Image4](images/image4.png)
 
-Extraemos el archivo en el zip descargado.
+Luego, en Virtual Box hacemos clic en __Nueva__ para crear la máquina virtual. En __Imagen ISO__, seleccionamos el archivo .iso que descargamos.
 
 ![Image5](images/image5.png)
-
-Luego, en Virtual Box hacemos clic en __Nueva__ para crear la máquina virtual. En __Imagen ISO__, seleccionamos el archivo que extraímos del zip.
-
 ![Image6](images/image6.png)
 
 ## 2. Instalación (si es necesario) de un proxy de interceptación (ZAP3 o BURP4)
