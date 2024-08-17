@@ -30,6 +30,8 @@ Asignamos los recursos que necesitemos hasta finalizar con la creación.
 
 Iniciamos la máquina virtual y realizamos la instalación.
 
+![Image21](images/image21.png)
+
 ## 2. Instalación de un proxy de interceptación (ZAP)
 
 Para poder visualizar el tráfico, será necesario instalar un proxy de interceptación en la máquina virtual. En este ejemplo, instalaremos ZAP. Para ello, abrimos la terminar y ejecutamos el siguiente comando:
