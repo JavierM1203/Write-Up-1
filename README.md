@@ -29,7 +29,22 @@ Asignamos los recursos que necesitemos hasta finalizar con la creación.
 
 Iniciar la máquina virtual y realizar la instalación.
 
-## 2. Instalación (si es necesario) de un proxy de interceptación (ZAP3 o BURP4)
+## 2. Instalación de un proxy de interceptación (ZAP)
+
+Para poder visualizar el tráfico, será necesario instalar un proxy de interceptación en la máquina virtual. En este ejemplo, instalaremos ZAP. Para ello, abrimos la terminar y ejecutamos el siguiente comando:
+
+`sudo apt install zaproxy -y`
+
+Se nos solicita ingresar la contraseña que configuramos cuando creamos el usuario:
+
+![Image8](images/image8.png) 
+
+Luego, la aplicación estara disponible para iniciar.
+
+![Image9](images/image9.png)  
+![Image10](images/image10.png)
+
+
 ## 3. Instalación de Docker en la máquina virtual de Kali5 Linux
 ## 4. Ejecución de un contenedor con OWASP Juice Shop6
 ## 5. Prueba de la visualización del tráfico en el proxy de interceptación seleccionado
