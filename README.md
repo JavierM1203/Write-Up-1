@@ -28,7 +28,7 @@ Asignamos los recursos que necesitemos hasta finalizar con la creación.
 
 ![Image7](images/image7.png)
 
-Iniciar la máquina virtual y realizar la instalación.
+Iniciamos la máquina virtual y realizar la instalación.
 
 ## 2. Instalación de un proxy de interceptación (ZAP)
 
@@ -75,3 +75,40 @@ Después de esto, abrimos el navegador y nos dirigimos a la dirección __127.0.0
 ![Image11](images/image11.png)
 
 ## 5. Prueba de la visualización del tráfico en el proxy de interceptación seleccionado
+
+Para visualizar el tráfico, abrimos ZAP y seleccionamos la opción __Manual Explore__.
+
+![Image10](images/image10.png)
+
+Ingresamos la dirección y el puerto en donde está levanta la aplicación de OWASP Juice Shop6. En nuestro caso es la dirección __127.0.0.1:3000__. Seleccionamos el browser que queremos utilizar para explorar la aplicación y hacemos clic en __Launch Browser__.
+
+![Image12](images/image12.png)
+
+Luego de esto, se abrira el navegador y podremos interceptar los paquetes desde ZAP cada vez que realizamos una acción desde el navegador.
+
+![Image13](images/image13.png)
+
+![Image14](images/image14.png)
+
+Desde ZAP, también podemos configurar un breakpoint entre todas las solicitudes y respuestas. 
+
+![Image15](images/image15.png)
+
+De esta manera, cada vez que se realiza una acción, podemos visualizar los paquetes que se envían uno por uno y modificar la información que contienen.
+
+Por ejemplo, al intentar iniciar sesión podemos modificar tanto las credenciales que se envian, como el mensaje que se devuelve al intentar iniciar sesión de manera incorrecta.
+
+En este caso, modifico la password que se mandó desde la aplicación.
+
+![Image16](images/image16.png)
+
+
+![Image17](images/image17.png)
+
+De la misma manera, también puedo modificar la respuesta que se recibe al ingresar una contraseña incorrecta.
+
+![Image18](images/image18.png)
+
+![Image19](images/image19.png)
+
+![Image20](images/image20.png)
