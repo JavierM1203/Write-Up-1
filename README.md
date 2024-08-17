@@ -84,7 +84,7 @@ Ingresamos la dirección y el puerto en donde está levanta la aplicación de OW
 
 ![Image12](images/image12.png)
 
-Luego de esto, se abrira el navegador y podremos interceptar los paquetes desde ZAP cada vez que realizamos una acción desde el navegador.
+Luego de esto, se abrirá el navegador y podremos interceptar los paquetes desde ZAP cada vez que realizamos una acción desde el navegador.
 
 ![Image13](images/image13.png)
 
