@@ -27,6 +27,8 @@ Asignamos los recursos que necesitemos hasta finalizar con la creación.
 
 ![Image7](images/image7.png)
 
+Iniciar la máquina virtual y realizar la instalación.
+
 ## 2. Instalación (si es necesario) de un proxy de interceptación (ZAP3 o BURP4)
 ## 3. Instalación de Docker en la máquina virtual de Kali5 Linux
 ## 4. Ejecución de un contenedor con OWASP Juice Shop6
