@@ -18,7 +18,7 @@ Luego de instalar Virtual Box, vamos a la página de máquinas virtuales de [Kal
 
 ![Image4](Image4.png)
 
-
+dddd
 dd
 
 ## 2. Instalación (si es necesario) de un proxy de interceptación (ZAP3 o BURP4)
