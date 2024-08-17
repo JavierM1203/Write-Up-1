@@ -28,7 +28,7 @@ Asignamos los recursos que necesitemos hasta finalizar con la creación.
 
 ![Image7](images/image7.png)
 
-Iniciamos la máquina virtual y realizar la instalación.
+Iniciamos la máquina virtual y realizamos la instalación.
 
 ## 2. Instalación de un proxy de interceptación (ZAP)
 
