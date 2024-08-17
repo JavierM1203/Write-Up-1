@@ -21,6 +21,7 @@ Luego de instalar Virtual Box, vamos a la página de imágenes de [Kali Linux](h
 Luego, en Virtual Box hacemos clic en __Nueva__ para crear la máquina virtual. En __Imagen ISO__, seleccionamos el archivo .iso que descargamos.
 
 ![Image5](images/image5.png)
+
 ![Image6](images/image6.png)
 
 Asignamos los recursos que necesitemos hasta finalizar con la creación.
@@ -41,10 +42,36 @@ Se nos solicita ingresar la contraseña que configuramos cuando creamos el usuar
 
 Luego, la aplicación estara disponible para iniciar.
 
-![Image9](images/image9.png)  
+![Image9](images/image9.png)
+
 ![Image10](images/image10.png)
 
-
 ## 3. Instalación de Docker en la máquina virtual de Kali5 Linux
+
+Debermos instalar Dockerar para ejecutar un contener con la aplicación OWASP Juice Shop6 sobre la cual estaremos interceptando el tráfico. Para instalar Docker ejecutamos el siguiente comando en la terminal de la máquina virtual.
+
+`sudo apt install docker.io`
+
+A continuarción, ejecutamos los siguientes comandos para iniciar Docker sin ser usuario root.
+
+```
+1. sudo usermod -aG docker ${USER}
+2. su - ${USER}
+3. sudo usermod -aG docker TU-USUARIO // reemplazar TU-USUARIO por el nombre del usuario que estamos usando
+```
+
 ## 4. Ejecución de un contenedor con OWASP Juice Shop6
+
+Para instalar la imágen de la aplicación OWASP Juice Shop6, ejecutamos el comando:
+
+`docker pull bkimminich/juice-shop`
+
+Luego, para correr la aplicación de manera local en el puerto 3000, ejecutamos el comando:
+
+`docker run -d -p 3000:3000 bkimminich/juice-shop`
+
+Después de esto, abrimos el navegador y nos dirigimos a la dirección __127.0.0.1:3000__ para visualizar la aplicación.
+
+![Image11](images/image11.png)
+
 ## 5. Prueba de la visualización del tráfico en el proxy de interceptación seleccionado
